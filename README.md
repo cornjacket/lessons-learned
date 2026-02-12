@@ -13,3 +13,4 @@ Not project-specific. Not process-specific. Just things I learned that I don't w
 - [005-alter-migrations-are-for-production.md](005-alter-migrations-are-for-production.md) — Rewrite CREATE migrations pre-production; ALTER only when live data exists
 - [006-inject-outputs-not-inputs.md](006-inject-outputs-not-inputs.md) — Inject output dependencies as interfaces; leave input infrastructure internal
 - [007-sentinel-event-pattern-for-negative-assertions.md](007-sentinel-event-pattern-for-negative-assertions.md) — Use ordering guarantees as synchronization instead of timeouts for negative assertions
+- [008-go-embed-for-sql-migrations.md](008-go-embed-for-sql-migrations.md) — `//go:embed` compiles SQL migrations into the binary for distroless containers
