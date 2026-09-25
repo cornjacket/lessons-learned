@@ -1,5 +1,27 @@
 # Lessons Learned
 
+> ## ⚠️ Moved — this repository is archived
+>
+> **All eight lessons now live in my second brain**, as individual notes under
+> `vault/resources/`, each tagged `golang`. Migrated 2026-09-24.
+>
+> **Do not add lessons here.** This repo is kept only as the historical record; the authored
+> dates are the part worth preserving.
+>
+> The premise below — "things I learned that I don't want to re-derive" — was right, and the
+> second brain is a better instrument for it: the notes are embedded and semantically searchable,
+> tag-linted against a controlled vocabulary, and size-gated. A folder of numbered Markdown files
+> cannot do any of that, and keeping both would leave a stale duplicate, which is worse than none.
+>
+> All eight were kept, including the Go-specific ones (`%w` in `fmt.Errorf`, `//go:embed` for
+> migrations), even though Go is not in current use. A lesson that is cheap to keep and expensive
+> to rediscover earns its place while dormant. The tag is `golang` rather than `go`, because `go`
+> is a common English word and would pollute lexical search.
+>
+> Sibling repo `ai-builder-lessons` was archived the same day for the same reason.
+>
+> ---
+
 Personal technical insights — patterns, idioms, and "now I get it" moments worth preserving.
 
 Not project-specific. Not process-specific. Just things I learned that I don't want to re-derive.
